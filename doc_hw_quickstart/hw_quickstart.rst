@@ -28,7 +28,7 @@ Hardware Quick Start Guide
 
 This guide shows how to assemble the Motor & Motion Control Kit modules in the following configurations:
 
-   * :ref:`XMOS_Motor_Motion_Control_Kit_User_Guide_Hardware_EtherCAT`
+   * Drive DC 100 with COM EtherCAT module and xTAG debug adapter
    * Drive DC 100 with COM EtherCAT module and no debug adapter
    * Drive DC 100 without COM EtherCAT module
 
@@ -112,7 +112,7 @@ Setting up with COM-EtherCAT module without Core to xTAG-2 Adapter
 
 This setup is useful if software debugging or xSCOPE functionality is not required and you have previously flashed the SOMANET node with a firmware that includes update functionality via EtherCAT. 
 
- You will require the following items:
+You will require the following items:
 
    #. One SOMANET IFM Drive DC 100 board.
    #. One SOMANET Core C22 module.

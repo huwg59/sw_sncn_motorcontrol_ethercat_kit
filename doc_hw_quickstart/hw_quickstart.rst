@@ -231,4 +231,39 @@ We recommend that you run the Hall Sensor application first to test that the mot
 
 The software is delivered as individual components within the xTIMEcomposer Studio development tools, which are available free of charge from the XMOS website: http://www.xmos.com/xtimecomposer
 
+Installing xTIMEcomposer
++++++++++++++++++++++++++++
+
+Details about downloading and installing the tools
+
+Importing and running the Hall Sensor application
+++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Drag in from xSOFTip Browser.
+
+Copy XN file to project.
+
+Build and run on hardware.
+
+Importing another application
++++++++++++++++++++++++++++++++
+
+Import a motor commutation app.
+
+Build and run.
+
+.. _XMOS_Motor_Motion_Control_Kit_User_Guide_Next:
+
+Next steps
+------------------------------
+
+
+Configuring your own motor
++++++++++++++++++++++++++++
+
+Details about how to configure your own motor.
+
+
+
+
 

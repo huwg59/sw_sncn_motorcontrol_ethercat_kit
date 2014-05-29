@@ -8,7 +8,9 @@ The XMOS Motor & Motion Control Kit contains a combination of hardware and softw
    * Drive DC 100 with EtherCAT comms and BLDC motor with Hall sensor encoding
    * Drive DC 100 with EtherCAT comms and BLDC motor with Quadrature encoder and Hall sensor encoding
 
-For information on assembling the hardware, see the Hardware Quick Start Guide.
+For information on assembling the SOMANET hardware modules, see the Hardware Quick Start Guide.
+
+For information on connecting the motor, see the Connecting Motor Guide.
 
 The software modules available for the kit include:
 
@@ -19,7 +21,7 @@ The software modules available for the kit include:
 
 [1] To evaluate the EtherCAT module an EtherCAT master is required which is currently only available free of charge on Linux platforms. Windows developers must purchase a TwinCAT license from Beckhoff Automation GmbH, or a similar solution. 
 
-For information on running the sotware modules, see the Software quick Start Guide.
+For information on running the sotware modules, see the Software Quick Start Guide.
 
 .. _XMOS_Motor_Motion_Control_Kit_User_Guide_Hardware:
 
@@ -204,4 +206,29 @@ All you need now to start programming is to connect the XMOS xTAG-2 adapter as s
    :align: center
 
    Step 4
+
+.. _XMOS_Motor_Motion_Control_Kit_User_Guide_Motor:
+
+Connecting the Motor Guide
+---------------------------
+
+The Motor & Motion Control Kit includes an sample motor that you can use the software modules to run.
+
+
+
+.. _XMOS_Motor_Motion_Control_Kit_User_Guide_Software:
+
+Software Quick Start Guide
+------------------------------
+
+The Motor & Motion Control Kit includes a set of software modules that run on the hardware, including:
+
+   * Hall Sensor
+   * Motor commutation
+   * AN Other
+   
+We recommend that you run the Hall Sensor application first to test that the motor runs correctly.
+
+The software is delivered as individual components within the xTIMEcomposer Studio development tools, which are available free of charge from the XMOS website: http://www.xmos.com/xtimecomposer
+
 

@@ -1,7 +1,25 @@
-.. _SOMANET_EtherCAT_Kit_HW_Quickstart:
+.. _XMOS_Motor_Motion_Control_Kit_User_Guide:
 
-Setting up the SOMANET EtherCAT Kit Hardware
-============================================
+Setting up the XMOS_MOTOR_&_MOTION Control Kit Hardware
+========================================================
+
+The XMOS Motor & Motion Control Kit contains a combination of hardware and software modules developed by Synapticon using SOMANET technology and XMOS multicore microcontrollers, with a smaple BLDC motor. The kit can be assembled in different configurations depending on the type of motor and communications interface you want to use. Currently there are three hardware configurations:
+
+   * Drive DC 100 with EtherCAT comms and BLDC motor with Hall sensor encoding
+   * Drive DC 100 with EtherCAT comms and BLDC motor with Quadrature encoder and Hall sensor encoding
+
+For information on assembling the hardware, see the Hardware Quick Start Section.
+
+The software modules available for the kit include:
+
+   * Motor commutation with position, velocity & torque control loops
+   * Support for Hall and Quadrature encoder sensors
+   * EtherCAT communication[1]
+   * CiA402 drive profile
+
+[1] To evaluate the EtherCAT module an EtherCAT master is required which is currently only available free of charge on Linux platforms. Windows developers must purchase a TwinCAT license from Beckhoff Automation GmbH, or a similar solution. 
+
+For information on running the sotware modules, see the Software quick Start Section.
 
 sw_sncn_motorcontrol_ethercat demo : Hardware Quick Start Guide
 ---------------------------------------------------------------

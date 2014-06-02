@@ -212,7 +212,30 @@ All you need now to start programming is to connect the XMOS xTAG-2 adapter as s
 Connecting the Motor Guide
 ---------------------------
 
-The Motor & Motion Control Kit includes an sample motor that you can use the software modules to run.
+The Motor & Motion Control Kit includes an sample motor that you can use the software modules to run. The motor is available with Hall Sensor only option, or Quadrature Encoding and Hall sensors.
+
+Power is supplied to all the boards in the Motor & Motion Control Kit by a 12-24V DC power supply, connected to the power connection on the IFM CD100 board. The power supply can drive a 3-phase BLDC motor with up to 120W per phase.
+
+To connect the motor
++++++++++++++++++++++
+
+#. Plug the power connector from the motor into the white Motor and Hall Sensor 8-pin SPOX connector on the IFM DC100 board.
+
+**QEI motors only**
+
+#. Plug the Quadrature Encoding connector to the red 10-pin Encoder connector on the IFM DC100 board.
+
+**EtherCAT communication only**
+
+#. Plug the EthercCAT cable from the motor into PORT1 connector on the COM EtherCAT board.
+
+#. Connect the xTAG-2 debug adapter to the xSYS connector on the xTAG Adapter. Connect the xTAG-2 to your development system.
+
+#. Slide the switch on the xTAG Adapter away from the xTAG-2. An LED lights up to indicate that the JTAG connection is active.
+
+#. Plug the power cable from a standalone power supply into the power connector on the IFM CD100 board.
+
+Your motor is now ready for testing.
 
 
 
